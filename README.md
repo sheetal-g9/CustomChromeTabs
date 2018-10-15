@@ -1,2 +1,2 @@
 # CustomChromeTabs
-An Android App to use Custom Chome Tabs
+An Android App to use Custom Chrome Tabs
