@@ -44,7 +44,28 @@
         android:backgroundTint="@color/browser_actions_divider_color"
         android:text="@string/webmail"
         android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@id/textview3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview2" />
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iitp_intranet"
+        app:layout_constraintBottom_toTopOf="@id/intranet_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/webmail_button" />
+
+    <Button
+        android:id="@+id/intranet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/browser_actions_divider_color"
+        android:text="@string/iitp_intranet"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/intranet_button" />
 </android.support.constraint.ConstraintLayout>

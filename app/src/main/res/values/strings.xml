@@ -2,4 +2,5 @@
     <string name="app_name">CustomChromeTabs</string>
     <string name="github">Github</string>
     <string name="webmail">Webmail</string>
+    <string name="iitp_intranet">IITP Intranet</string>
 </resources>
