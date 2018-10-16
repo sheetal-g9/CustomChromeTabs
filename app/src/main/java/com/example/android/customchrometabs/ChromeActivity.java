@@ -25,6 +25,8 @@ public class ChromeActivity extends AppCompatActivity {
 //        final String url1 = "https://github.com/BVShe001";
 //        final String url2 = "https://www.google.com";
         url.add("https://github.com/BVShe001");
+        url.add("https://ashoka.iitp.ac.in");
+        url.add("https://172.16.1.6");
         url.add("https://www.google.com");
         url.add("https://www.youtube.com");
         url.add("https://www.wikipedia.org");
