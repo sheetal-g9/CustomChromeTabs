@@ -64,3 +64,5 @@
 > This package requires API level 15 or higher. The Gradle build script dependency identifier for this library is as follows:
 
      com.android.support:customtabs:28.0.0
+# CustomChromeTabs
+An Android App to use Custom Chrome Tabs
