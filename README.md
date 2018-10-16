@@ -51,13 +51,6 @@
             }
         });
 
-##App snipits
-
-![alt text](https://lh3.googleusercontent.com/TnLoZxTaBLROAYIDW7IVJ9ThncM74x_u8Vhc4vvRw02CWAoayrPg5mdGKT0nWv3FCFPviawv3upPXqwqMZNu=w1366-h594-rw)
-
-![alt text](https://lh5.googleusercontent.com/Px2gdXi4WsJLhMS9s0ebBxDKIay5FUreu6cT7H2nylQmo-sRjcjxRrrGWF_6y4s1qfYiar02ywjKg9L0myld=w1366-h594-rw)
-
-![alt text](https://lh4.googleusercontent.com/kG2GlP9yDtanAIyhHb1XRmFPj27PZk8QXIMVdYtu0IrhAA9LSZ3Jv3HNA-ZYPLQAO3ehRsHMFCXCOjbI32fe=w1366-h594-rw)
 
 ## Installation
 
