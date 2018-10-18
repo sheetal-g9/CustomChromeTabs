@@ -53,6 +53,7 @@ public class ChromeActivity extends AppCompatActivity {
             url.add("https://www.ign.com");
             url.add("https://www.cnet.com");
             url.add("https://www.toutiao.com");
+            url.add("https://news.ycombinator.com");
 
             //google sites
             url.add("https://www.google.com");
@@ -60,6 +61,8 @@ public class ChromeActivity extends AppCompatActivity {
             url.add("https://www.news.google.com");
             url.add("https://maps.google.com");
             url.add("https://pay.google.com/about");
+            url.add("https://drive.google.com");
+            url.add("https://calendar.google.com");
 
             //social media/blogging/forum
             url.add("https://www.twitter.com");
