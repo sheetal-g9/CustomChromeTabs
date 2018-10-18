@@ -145,12 +145,22 @@ public class ChromeActivity extends AppCompatActivity {
             url.add("https://www.grammarly.com");        
             url.add("https://www.ted.com");
             url.add("https://archive.org");
+            url.add("https://www.khanacademy.org");
+            url.add("https://learncodeonline.in");
+            url.add("https://www.freecodecamp.org");
+            url.add("https://nptel.ac.in");
+            url.add("https://swayam.gov.in");
+            url.add("https://www.edx.org");
+            url.add("https://dev.to");
 
             //food/recipe        
             url.add("https://www.allrecipes.com");
             url.add("https://www.foodnetwork.com");
             url.add("https://www.yummly.com");
             url.add("https://www.chowhound.com");
+            url.add("https://www.zomato.com");
+            url.add("https://www.uber.com");
+            url.add("https://www.swiggy.com");
         
 
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
