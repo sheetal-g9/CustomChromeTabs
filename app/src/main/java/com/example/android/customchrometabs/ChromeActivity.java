@@ -162,10 +162,10 @@ public class ChromeActivity extends AppCompatActivity {
             url.add("https://www.uber.com");
             url.add("https://www.swiggy.com");
 
-			//programming
-			url.add("https://www.codecademy.com")
-			url.add("https://www.udemy.com")
-			url.add("https://www.edx.org")
+	//programming
+	        url.add("https://www.codecademy.com")
+	        url.add("https://www.udemy.com")
+	        url.add("https://www.edx.org")
 			url.add("https://www.codewars.com")
 			url.add("https://www.coursera.org")
 			url.add("https://www.freecodecamp.org")
