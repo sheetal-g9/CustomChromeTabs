@@ -161,7 +161,19 @@ public class ChromeActivity extends AppCompatActivity {
             url.add("https://www.zomato.com");
             url.add("https://www.uber.com");
             url.add("https://www.swiggy.com");
-        
+
+			//programming
+			url.add("https://www.codecademy.com")
+			url.add("https://www.udemy.com")
+			url.add("https://www.edx.org")
+			url.add("https://www.codewars.com")
+			url.add("https://www.coursera.org")
+			url.add("https://www.freecodecamp.org")
+			url.add("https://www.udacity.com")
+			url.add("https://ocw.mit.edu/index.htm") 
+			url.add("https://www.khanacademy.org/") 
+			url.add("https://www.theodinproject.com")
+			      
 
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
         final CustomTabsIntent customTabsIntent = builder.build();
