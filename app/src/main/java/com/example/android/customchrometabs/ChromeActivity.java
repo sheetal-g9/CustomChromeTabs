@@ -63,6 +63,10 @@ public class ChromeActivity extends AppCompatActivity {
             url.add("https://pay.google.com/about");
             url.add("https://drive.google.com");
             url.add("https://calendar.google.com");
+	    url.add("https://fonts.google.com");
+	    url.add("https://translate.google.com");
+	    url.add("https://duo.google.com");
+	    url.add("https://photos.google.com");
 
             //social media/blogging/forum
             url.add("https://www.twitter.com");
@@ -173,6 +177,18 @@ public class ChromeActivity extends AppCompatActivity {
 			url.add("https://ocw.mit.edu/index.htm") 
 			url.add("https://www.khanacademy.org/") 
 			url.add("https://www.theodinproject.com")
+			
+	//Online Ticket and Hotels Booking
+	     	url.add("https://www.makemytrip.com");
+	        url.add("https://www.easemytrip.com");
+	        url.add("https://www.goibibo.com");
+	        url.add("https://www.expedia.co.in");
+	        url.add("https://www.cleartrip.com");
+	        url.add("https://www.yatra.com");
+	        url.add("https://paytm.com");
+	        url.add("https://www.redbus.in");
+	        url.add("https://www.trivago.in");
+	        url.add("https://www.oyorooms.com");
 			      
 
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
