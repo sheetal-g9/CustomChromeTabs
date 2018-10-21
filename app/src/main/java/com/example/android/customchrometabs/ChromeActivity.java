@@ -63,10 +63,12 @@ public class ChromeActivity extends AppCompatActivity {
             url.add("https://pay.google.com/about");
             url.add("https://drive.google.com");
             url.add("https://calendar.google.com");
-	    url.add("https://fonts.google.com");
-	    url.add("https://translate.google.com");
-	    url.add("https://duo.google.com");
-	    url.add("https://photos.google.com");
+            url.add("https://opensource.google.com");
+
+	          url.add("https://fonts.google.com");
+	          url.add("https://translate.google.com");
+	          url.add("https://duo.google.com");
+	          url.add("https://photos.google.com");
 
             //social media/blogging/forum
             url.add("https://www.twitter.com");
@@ -167,6 +169,12 @@ public class ChromeActivity extends AppCompatActivity {
             url.add("https://www.swiggy.com");
 
 	//programming
+
+            url.add("https://raywenderlich.com");
+            url.add("https://pluralsight.com");
+
+
+
 	        url.add("https://www.codecademy.com")
 	        url.add("https://www.udemy.com")
 	        url.add("https://www.edx.org")
@@ -178,7 +186,6 @@ public class ChromeActivity extends AppCompatActivity {
 			url.add("https://www.khanacademy.org/") 
 			url.add("https://www.theodinproject.com")
 			
-	//Online Ticket and Hotels Booking
 	     	url.add("https://www.makemytrip.com");
 	        url.add("https://www.easemytrip.com");
 	        url.add("https://www.goibibo.com");
