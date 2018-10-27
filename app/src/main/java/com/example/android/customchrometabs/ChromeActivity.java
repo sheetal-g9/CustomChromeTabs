@@ -4,6 +4,8 @@ import android.net.Uri;
 import android.support.customtabs.CustomTabsIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 
@@ -12,48 +14,27 @@ import java.util.List;
 
 public class ChromeActivity extends AppCompatActivity {
 
+    RecyclerView recyclerView;
+
+    CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+    CustomTabsIntent customTabsIntent = builder.build();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chrome);
-
-        Button button1 = findViewById(R.id.github_button);
-        Button button2 = findViewById(R.id.webmail_button);
-        Button button3 = findViewById(R.id.intranet_button);
-
-        final List<String> url = new ArrayList<>();
-//        final String url1 = "https://github.com/BVShe001";
-//        final String url2 = "https://www.google.com";
-        url.add("https://github.com/BVShe001");
-        url.add("https://www.google.com");
-        url.add("https://ashoka.iitp.ac.in");
-        url.add("https://172.16.1.6");
-
-        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-        final CustomTabsIntent customTabsIntent = builder.build();
+        final List<Url> url = new ArrayList<>();
+        url.add(new Url("https://github.com/BVShe001"));
+        url.add(new Url("https://www.google.com"));
+        url.add(new Url("https://ashoka.iitp.ac.in"));
+        url.add(new Url("https://172.16.1.6"));
+        recyclerView = findViewById(R.id.url_recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(new CustomChromeAdapter(url));
 
 
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                customTabsIntent.launchUrl(ChromeActivity.this, Uri.parse(url.get(0)));
-            }
-        });
-
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                customTabsIntent.launchUrl(ChromeActivity.this, Uri.parse(url.get(2)));
-
-            }
-        });
-
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                customTabsIntent.launchUrl(ChromeActivity.this, Uri.parse(url.get(3)));
-
-            }
-        });
+    }
+    public void onUrlClick(Url url){
+        customTabsIntent.launchUrl(this,Uri.parse(url.getUrl()));
     }
 }
