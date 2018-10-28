@@ -73,6 +73,7 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("https://drive.google.com"));
         url.add(new Url("https://calendar.google.com"));
         url.add(new Url("https://opensource.google.com"));
+		url.add(new Url("https://scholar.google.com"));
 
         url.add(new Url("https://fonts.google.com"));
         url.add(new Url("https://translate.google.com"));
@@ -115,6 +116,9 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("https://www.audible.com/"));
         url.add(new Url("https://www.imdb.com"));
         url.add(new Url("https://www.rottentomatoes.com"));
+        url.add(new Url("www.crunchyroll.com"));
+        url.add(new Url("www.primevideo.com"));
+
 
         //utilities (search engines, code sharing, messaging, etc.)
         url.add(new Url("https://github.com/BVShe001"));
@@ -133,6 +137,7 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("https://slack.com"));
         url.add(new Url("https://www.dropbox.com"));
         url.add(new Url("https://www.digitalocean.com"));
+        url.add(new Url("http://gitlab.com/"));
 
         //professional/job
         url.add(new Url("https://www.indeed.com"));
@@ -151,6 +156,15 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("https://www.etsy.com"));
         url.add(new Url("https://www.rakuten.co.jp"));
         url.add(new Url("https://www.gmarket.co.kr"));
+		
+		//games shopping/hub
+        url.add(new Url("https://store.steampowered.com"));
+        url.add(new Url("https://www.gog.com"));
+        url.add(new Url("https://www.rockstargames.com"));
+        url.add(new Url("https://www.origin.com"));
+        url.add(new Url("https://store.ubi.com"));
+        url.add(new Url("https://store.playstation.com"));
+        url.add(new Url("https://www.xbox.com"));
 
         //academic/educational/
         url.add(new Url("https://ashoka.iitp.ac.in"));
