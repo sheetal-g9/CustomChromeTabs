@@ -142,6 +142,7 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("https://www.roberthalf.com"));
         url.add(new Url("https://www.careerbuilder.com"));
         url.add(new Url("https://www.simplyhired.com"));
+        url.add(new Url("https://angel.co/"));
 
         //shopping
         url.add(new Url("https://www.amazon.com"));
