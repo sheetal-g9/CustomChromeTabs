@@ -205,6 +205,12 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("https://www.redbus.in"));
         url.add(new Url("https://www.trivago.in"));
         url.add(new Url("https://www.oyorooms.com"));
+
+
+	// foreign language learning
+        url.add(new Url("https://tinycards.duolingo.com"));
+        url.add(new Url("https://www.duolingo.com"));
+
     }
 
     public void onUrlClick(Url url) {
