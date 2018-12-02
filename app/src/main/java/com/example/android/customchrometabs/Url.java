@@ -1,20 +1,19 @@
 package com.example.android.customchrometabs;
 
-import java.util.List;
-
 public class Url {
-    public Url(String url) {
-        this.url = url;
-    }
-
     String url;
+    String name;
 
-    public void setUrl(String url) {
+    public Url(String name, String url) {
         this.url = url;
+        this.name = name;
     }
-
 
     public String getUrl() {
         return url;
+    }
+
+    public String getName() {
+        return name;
     }
 }

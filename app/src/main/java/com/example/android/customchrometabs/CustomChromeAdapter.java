@@ -30,6 +30,7 @@ public class CustomChromeAdapter extends RecyclerView.Adapter<CustomChromeAdapte
     @Override
     public void onBindViewHolder(@NonNull UrlHolder urlHolder, int i) {
         urlHolder.getUrlTextView().setText(urls.get(i).getUrl());
+        urlHolder.getWebsite_textview().setText(urls.get(i).getName());
     }
 
     @Override
@@ -39,6 +40,12 @@ public class CustomChromeAdapter extends RecyclerView.Adapter<CustomChromeAdapte
 
     public class UrlHolder extends RecyclerView.ViewHolder {
         TextView urlTextView;
+
+        public TextView getWebsite_textview() {
+            return website_textview;
+        }
+
+        TextView website_textview;
         public UrlHolder(@NonNull final View itemView) {
             super(itemView);
             itemView.setOnClickListener(new View.OnClickListener() {
@@ -48,6 +55,7 @@ public class CustomChromeAdapter extends RecyclerView.Adapter<CustomChromeAdapte
                 }
             });
             urlTextView = itemView.findViewById(R.id.url_textView);
+            website_textview = itemView.findViewById(R.id.website_name_textview);
         }
 
         public TextView getUrlTextView() {
