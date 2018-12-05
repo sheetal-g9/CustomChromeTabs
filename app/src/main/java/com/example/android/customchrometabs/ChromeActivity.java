@@ -125,7 +125,6 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("Website","https://www.douban.com"));
 
         //audio/video/movie
-<<<<<<< HEAD
         url.add(new Url("Website","https://www.netflix.com"));
         url.add(new Url("Website","https://www.twitch.tv"));
         url.add(new Url("Website","https://www.vimeo.com"));
@@ -177,73 +176,6 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("Website","https://www.etsy.com"));
         url.add(new Url("Website","https://www.rakuten.co.jp"));
         url.add(new Url("Website","https://www.gmarket.co.kr"));
-=======
-        url.add(new Url("https://www.netflix.com"));
-        url.add(new Url("https://www.twitch.tv"));
-        url.add(new Url("https://www.vimeo.com"));
-        url.add(new Url("https://www.youtube.com"));
-        url.add(new Url("https://www.bandcamp.com"));
-        url.add(new Url("https://www.youku.com"));
-        url.add(new Url("https://www.pandora.com"));
-        url.add(new Url("https://www.soundcload.com"));
-        url.add(new Url("https://www.last.fm"));
-        url.add(new Url("https://www.hulu.com"));
-        url.add(new Url("https://www.npr.org"));
-        url.add(new Url("https://www.scribd.com"));
-        url.add(new Url("https://www.audible.com/"));
-        url.add(new Url("https://www.imdb.com"));
-        url.add(new Url("https://www.rottentomatoes.com"));
-        url.add(new Url("www.crunchyroll.com"));
-        url.add(new Url("www.primevideo.com"));
-
-
-        //utilities (search engines, code sharing, messaging, etc.)
-        url.add(new Url("https://github.com/BVShe001"));
-        url.add(new Url("https://172.16.1.6"));
-        url.add(new Url("https://www.live.com"));
-        url.add(new Url("https://www.naver.com"));
-        url.add(new Url("https://www.yahoo.com"));
-        url.add(new Url("https://www.whatsapp.com"));
-        url.add(new Url("https://www.msn.com"));
-        url.add(new Url("https://duckduckgo.com"));
-        url.add(new Url("https://www.paypal.com"));
-        url.add(new Url("https://www.office.com"));
-        url.add(new Url("https://bitbucket.org"));
-        url.add(new Url("https://www.bit.ly"));
-        url.add(new Url("https://www.sourceforge.net"));
-        url.add(new Url("https://slack.com"));
-        url.add(new Url("https://www.dropbox.com"));
-        url.add(new Url("https://www.digitalocean.com"));
-        url.add(new Url("http://gitlab.com/"));
-
-        //professional/job
-        url.add(new Url("https://www.indeed.com"));
-        url.add(new Url("https://www.monster.com"));
-        url.add(new Url("https://www.linkedin.com"));
-        url.add(new Url("https://www.glassdoor.com/index.htm"));
-        url.add(new Url("https://www.roberthalf.com"));
-        url.add(new Url("https://www.careerbuilder.com"));
-        url.add(new Url("https://www.simplyhired.com"));
-        url.add(new Url("https://angel.co/"));
-
-        //shopping
-        url.add(new Url("https://www.amazon.com"));
-        url.add(new Url("https://www.ebay.com"));
-        url.add(new Url("https://www.aliexpress.com"));
-        url.add(new Url("https://www.taobao.com"));
-        url.add(new Url("https://www.etsy.com"));
-        url.add(new Url("https://www.rakuten.co.jp"));
-        url.add(new Url("https://www.gmarket.co.kr"));
-		
-		//games shopping/hub
-        url.add(new Url("https://store.steampowered.com"));
-        url.add(new Url("https://www.gog.com"));
-        url.add(new Url("https://www.rockstargames.com"));
-        url.add(new Url("https://www.origin.com"));
-        url.add(new Url("https://store.ubi.com"));
-        url.add(new Url("https://store.playstation.com"));
-        url.add(new Url("https://www.xbox.com"));
->>>>>>> 719a8a05228376315bb9f78e80c70af06392d532
 
         //academic/educational/
         url.add(new Url("Website","https://ashoka.iitp.ac.in"));
@@ -272,7 +204,6 @@ public class ChromeActivity extends AppCompatActivity {
 
         //programming
 
-<<<<<<< HEAD
         url.add(new Url("Website","https://raywenderlich.com"));
         url.add(new Url("Website","https://pluralsight.com"));
 
@@ -298,39 +229,7 @@ public class ChromeActivity extends AppCompatActivity {
         url.add(new Url("Website","https://www.redbus.in"));
         url.add(new Url("Website","https://www.trivago.in"));
         url.add(new Url("Website","https://www.oyorooms.com"));
-=======
-        url.add(new Url("https://raywenderlich.com"));
-        url.add(new Url("https://pluralsight.com"));
 
-
-        url.add(new Url("https://www.codecademy.com"));
-        url.add(new Url("https://www.udemy.com"));
-        url.add(new Url("https://www.edx.org"));
-        url.add(new Url("https://www.codewars.com"));
-        url.add(new Url("https://www.coursera.org"));
-        url.add(new Url("https://www.freecodecamp.org"));
-        url.add(new Url("https://www.udacity.com"));
-        url.add(new Url("https://ocw.mit.edu/index.htm"));
-        url.add(new Url("https://www.khanacademy.org/"));
-        url.add(new Url("https://www.theodinproject.com"));
-
-        url.add(new Url("https://www.makemytrip.com"));
-        url.add(new Url("https://www.easemytrip.com"));
-        url.add(new Url("https://www.goibibo.com"));
-        url.add(new Url("https://www.expedia.co.in"));
-        url.add(new Url("https://www.cleartrip.com"));
-        url.add(new Url("https://www.yatra.com"));
-        url.add(new Url("https://paytm.com"));
-        url.add(new Url("https://www.redbus.in"));
-        url.add(new Url("https://www.trivago.in"));
-        url.add(new Url("https://www.oyorooms.com"));
-
-
-	// foreign language learning
-        url.add(new Url("https://tinycards.duolingo.com"));
-        url.add(new Url("https://www.duolingo.com"));
-
->>>>>>> 719a8a05228376315bb9f78e80c70af06392d532
     }
 
     public void onUrlClick(Url url) {
